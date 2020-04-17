@@ -1,0 +1,28 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+.getSPlistitemsReact {
+    .container {
+        max-width: 700px;
+        margin: 0px auto;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    }
+    .rtable {
+        text-align: center;
+        width: 100%;
+        border: 1px solid;
+    }
+    .rrow {
+        background-color: lightgrey;
+        color: black;
+    }
+    .rheader {
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+    }
+    .rcell {
+        color: black;
+        border: 1px solid white;
+        text-align: left;
+        padding: 5px;
+    }
+}

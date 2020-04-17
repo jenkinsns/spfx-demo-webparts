@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-share-point-data-client-side-solution",
+    "id": "638ccddb-94dd-4e1e-838f-6d9c0d71d4bd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/get-share-point-data.sppkg"
+  }
+}
