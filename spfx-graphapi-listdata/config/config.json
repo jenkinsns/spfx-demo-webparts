@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-consumer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphConsumer/GraphConsumerWebPart.js",
+          "manifest": "./src/webparts/graphConsumer/GraphConsumerWebPart.manifest.json"
+        }
+      ]
+    },
+    "graph-consumersplist-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphConsumersplist/GraphConsumersplistWebPart.js",
+          "manifest": "./src/webparts/graphConsumersplist/GraphConsumersplistWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphConsumerWebPartStrings": "lib/webparts/graphConsumer/loc/{locale}.js",
+    "GraphConsumersplistWebPartStrings": "lib/webparts/graphConsumersplist/loc/{locale}.js"
+  }
+}

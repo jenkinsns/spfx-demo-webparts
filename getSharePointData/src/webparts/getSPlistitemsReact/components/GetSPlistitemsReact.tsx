@@ -70,9 +70,6 @@ export default class GetSPlistitemsReact extends React.Component<IGetSPlistitems
     </table>
     </div>
     </div>
-
-
-
     );
   }
 }
