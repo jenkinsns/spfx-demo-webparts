@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "typescript-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/typescriptDemo/TypescriptDemoWebPart.js",
+          "manifest": "./src/webparts/typescriptDemo/TypescriptDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TypescriptDemoWebPartStrings": "lib/webparts/typescriptDemo/loc/{locale}.js"
+  }
+}

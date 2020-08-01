@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/getSPlistitemsReact/GetSPlistitemsReactWebPart.manifest.json"
         }
       ]
+    },
+    "dyanmicdataload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dyanmicdataload/DyanmicdataloadWebPart.js",
+          "manifest": "./src/webparts/dyanmicdataload/DyanmicdataloadWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "GetSPlistitemsnojsWebPartStrings": "lib/webparts/getSPlistitemsnojs/loc/{locale}.js",
-    "GetSPlistitemsReactWebPartStrings": "lib/webparts/getSPlistitemsReact/loc/{locale}.js"
+    "GetSPlistitemsReactWebPartStrings": "lib/webparts/getSPlistitemsReact/loc/{locale}.js",
+    "DyanmicdataloadWebPartStrings": "lib/webparts/dyanmicdataload/loc/{locale}.js"
   }
 }

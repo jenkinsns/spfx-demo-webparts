@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "s-pfx-type-script-client-side-solution",
+    "id": "498da693-1fc2-4d8a-8579-56193c746e13",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/s-pfx-type-script.sppkg"
+  }
+}
